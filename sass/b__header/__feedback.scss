@@ -1,0 +1,38 @@
+.connection {
+  display: flex;
+  align-items: center;
+  .link {
+    display: flex;
+    align-items: center;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  .link:hover,
+  .link:focus {
+    color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.connection__list {
+  margin-left: 30px;
+}
+.connection__tell {
+  margin-right: 0px;
+  margin-left: 25px;
+  padding-right: 0px;
+}
+.connection__mail:hover .icon,
+.connection__mail:focus .icon {
+  fill: var(--accent-color);
+}
+.connection__tell:hover .icon,
+.connection__tell:focus .icon {
+  fill: var(--accent-color);
+}
